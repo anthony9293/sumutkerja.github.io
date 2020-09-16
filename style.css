@@ -1,0 +1,163 @@
+/*Mobile  font size*/
+@media (max-width: 1045px) {
+  .jumbotron {
+    height: 250px;
+  }
+  .jumbotron .container h1 {
+    font-size: 30px;
+  }
+  .jumbotron .container p {
+    font-size: 16px;
+  }
+}
+
+
+/* NAVBAR */
+/* MENU LIST */
+.navbar {
+	border-bottom: 1px solid white;
+}
+
+.navbar .nav-link {
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+/*.navbar a {
+	
+}*/
+
+.navbar .nav-link:focus, .navbar .nav-link:hover {
+	background-color: rgba(255,255,255,0.3);
+    color: white !important;
+    border-radius: 30px;
+   	padding-right: 20px;
+	padding-left: 20px ;
+
+}
+
+/*------------------------------------------------------*/
+
+/*JUMBOTRON*/
+.jumbotron {
+	background-image: url(img/img_jumbotron.jpg);
+	background-size: cover;
+	height: 450px;
+	text-align: center;
+}
+
+.jumbotron .container {
+	margin-top: 45px;
+}
+
+.jumbotron h1 {
+	color: white;
+	
+	font-size: 50px;
+
+}
+
+.jumbotron h1 span {
+	font-weight: bold;
+}
+
+.jumbotron p {
+	color: white;
+	font-size: 20px;
+	
+}
+
+.jumbotron hr {
+	border-color: #28A745;
+	width: 300px;
+	border-width: 3px;
+}
+
+.jumbotron .btn {
+	background-color: #28A745;
+	border: none;
+	border-radius: 30px;
+	padding-right: 20px;
+	padding-left: 20px;
+	font-weight: bold;
+}
+
+.jumbotron .btn:hover {
+	background-color: #fff;
+	color: #28A745;
+}
+
+/*--------------------------------------------------------*/
+/* MENUSEARCH */
+
+.menusearch {
+	margin-top: 70px;
+	text-align: center;
+}
+
+.menusearch h1 {
+	font-weight: bold;
+	margin-bottom: 30px;
+	color: #28A745;
+}
+
+.menusearch #search {
+	background-color: #28A745;
+	border: none;
+	padding-right: 30px;
+	padding-left: 30px;
+	font-weight: bold;
+	color: white;
+}
+
+.menusearch .form-row {
+	text-align: justify;
+}
+
+/*postingan*/
+.postingan {
+	margin-top: 100px;
+}
+
+.postingan li {
+	margin-top: 50px;
+	padding: 30px;
+	border: 3px solid #f2f2f2;
+	box-shadow: 3px 5px salmon;
+}
+
+.postingan li img {
+
+	margin-right: 20px;
+}
+
+.postingan li h5 {
+
+}
+
+
+
+/*-----------------------------------------------------------*/
+/* FOOTER */
+.footer {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	background-color: #28A745;
+	color: white;
+	margin-top: 50px;
+}
+
+.footer a {
+	color: #fff;
+}
+
+.footer a:hover {
+	color: yellow;
+	text-decoration: none;
+}
